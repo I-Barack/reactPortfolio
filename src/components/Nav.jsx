@@ -45,7 +45,7 @@ const Nav = ({ callback }) => {
         </div>
 
         {/* Mobile Menu */}
-        <ul className={!bugger ? 'md:hidden absolute -left-[1000px] ease-in top-0 w-full h-screen duration-700 bg-[#0a192f] flex flex-col justify-center items-center' : 'absolute top-0 left-0 w-full h-screen duration-700 ease-in bg-[#0a192f] flex flex-col justify-center items-center'}>
+        <ul className={!bugger ? 'md:hidden absolute left-0 ease-in-out -top-[1000px] w-full h-screen duration-1000 bg-[#0a192f] flex flex-col justify-center items-center' : 'absolute top-0 left-0 w-full h-screen duration-1000 ease-in-out bg-[#0a192f] flex flex-col justify-center items-center'}>
           <li className='py-6 text-4xl hover:scale-150 duration-300'>
             <Link onClick={handleClick} to="home" smooth={true} duration={700}>Home</Link>
           </li>
