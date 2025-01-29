@@ -6,7 +6,7 @@ import ProjectImg from '../assets/photo4.png'
 const Work = () => {
   return (
     <div name='work' className='bg-[#0a192f] w-full md:h-screen text-gray-300 flex justify-center items-center'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full'>
+      <div className='max-w-[1000px] mx-auto py-4 px-8 md:px-16 flex flex-col justify-center w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4  border-[#98313c] '>Work</p>
           <p className='py-6'>// Check out sme of my recent work</p>
@@ -21,9 +21,9 @@ const Work = () => {
             
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl fonto-bold text-white tracking-wider'>
+              <div className='text-2xl font-bold text-center px-4 text-white tracking-wider'>
                 React JS Application
-              </span>
+              </div>
               <div className='pt-8 text-center'>
                 <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
@@ -41,9 +41,9 @@ const Work = () => {
 
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl fonto-bold text-white tracking-wider'>
+              <div className='text-2xl font-bold text-center px-4 text-white tracking-wider'>
                 TailwindCSS UI/UX
-              </span>
+              </div>
               <div className='pt-8 text-center'>
                 <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
@@ -61,9 +61,9 @@ const Work = () => {
 
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl fonto-bold text-white tracking-wider'>
+              <div className='text-2xl font-bold text-center px-4 text-white tracking-wider'>
                 Node Js Application
-              </span>
+              </div>
               <div className='pt-8 text-center'>
                 <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
@@ -81,9 +81,9 @@ const Work = () => {
             
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl fonto-bold text-white tracking-wider'>
+              <div className='text-2xl font-bold text-center px-4 text-white tracking-wider'>
                 AV Eatry Application
-              </span>
+              </div>
               <div className='pt-8 text-center'>
                 <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
@@ -101,9 +101,9 @@ const Work = () => {
 
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl fonto-bold text-white tracking-wider'>
+              <div className='text-2xl font-bold text-center px-4 text-white tracking-wider'>
                 Travel Web Application
-              </span>
+              </div>
               <div className='pt-8 text-center'>
                 <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
@@ -121,9 +121,9 @@ const Work = () => {
 
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl fonto-bold text-white tracking-wider'>
+              <div className='text-2xl font-bold text-center px-4 text-white tracking-wider'>
                 Css Design
-              </span>
+              </div>
               <div className='pt-8 text-center'>
                 <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>

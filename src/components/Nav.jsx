@@ -1,14 +1,16 @@
-import React, {useState} from 'react'
-import Logo from '../assets/my-logo.png'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
-import {Link} from 'react-scroll'
+import React, {useState} from 'react';
+import Logo from '../assets/my-logo.png';
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa';
+import {HiOutlineMail} from 'react-icons/hi';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
+import {Link} from 'react-scroll';
 
-const Nav = () => {
-  const [bugger, setBugger] = useState(false)
-  const handleClick = () => setBugger(!bugger) 
-    
+
+const Nav = ({ callback }) => {
+
+  const [bugger, setBugger] = useState(false);
+  const handleClick = () => setBugger(!bugger); 
+
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 border-b border-gray-700'>
@@ -43,7 +45,7 @@ const Nav = () => {
         </div>
 
         {/* Mobile Menu */}
-        <ul className={!bugger ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+        <ul className={!bugger ? 'md:hidden absolute -left-[1000px] ease-in top-0 w-full h-screen duration-700 bg-[#0a192f] flex flex-col justify-center items-center' : 'absolute top-0 left-0 w-full h-screen duration-700 ease-in bg-[#0a192f] flex flex-col justify-center items-center'}>
           <li className='py-6 text-4xl hover:scale-150 duration-300'>
             <Link onClick={handleClick} to="home" smooth={true} duration={700}>Home</Link>
           </li>
