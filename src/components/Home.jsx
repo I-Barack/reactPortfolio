@@ -15,7 +15,7 @@ const Home = () => {
             <h1 className='text-4xl md:text-7xl font-bold text-[#ccd6f6]'>Barack</h1>
             <h2 className='text-4xl md:text-7xl font-bold text-[#8892b0]'>Full Stack developer.</h2>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>
-              I'm a Full Stack Developer specializing in building (and occasionally designing) exceptional experiences. Currently, I'm focused on building responsive full-stack web application.
+            Dynamic JavaScript, Node.js, and React Developer with a proven track record at Early Code, where I honed my problem-solving, collaboration and HTML5/CSS3 expertise. Excelled in building strong relationships and leveraging creativity for innovative solutions. Achieved significant project success through exceptional teamwork and collaboration.
             </p>
             <div>
                 <button className='group text-white border-2 px-6 py-3 my-2  border-[#98313c] hover:bg-[#98313c]'>

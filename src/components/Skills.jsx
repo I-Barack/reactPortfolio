@@ -12,7 +12,7 @@ import Skillcard from './Skillcard';
 const Skills = () => {
 
   return (
-    <div name='skills' className='bg-[#0a192f] text-gray-300 w-full h-screen'>
+    <div name='skills' className='bg-[#0a192f] text-gray-300 w-full h-screen pt-5'>
       {/* Contaier */}
       <div className='max-w-[1000px] mx-auto px-8 md:px-16 p-4 flex flex-col justify-center w-full h-full'>
         <div>
