@@ -42,7 +42,7 @@ const Work = () => {
       <div className='max-w-[1000px] mx-auto py-4 px-8 md:px-16 flex flex-col justify-center w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4  border-[#98313c]'>Works</p>
-          <p className='py-6'>Here are some projects I recently workes on</p>
+          <p className='py-6'>Here are some projects I recently worked on</p>
         </div>
 
         {/* Container */}

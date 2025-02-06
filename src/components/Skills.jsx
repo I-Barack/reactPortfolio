@@ -12,12 +12,12 @@ import Skillcard from './Skillcard';
 const Skills = () => {
 
   return (
-    <div name='skills' className='bg-[#0a192f] text-gray-300 w-full h-screen pt-5'>
+    <div name='skills' className='bg-slate-100/60 text-black w-full h-screen pt-5'>
       {/* Contaier */}
       <div className='max-w-[1000px] mx-auto px-8 md:px-16 p-4 flex flex-col justify-center w-full h-full'>
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-[#98313c]'>Skills</p>
-          <p className='py-4'>// These are the technologies i've worked with</p>
+          <p className='py-4'>Technologies and Tools I work with</p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
