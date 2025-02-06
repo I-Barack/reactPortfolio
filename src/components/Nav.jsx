@@ -14,7 +14,7 @@ const Nav = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-center items-center bg-transparent'>
-      <div className='w-full md:w-[70%] h-full md:h-[70%] flex justify-between items-center md:shadow-lg px-4 bg-slate-50 rounded-2xl text-black border-gray-700'>
+      <div className='w-full md:w-[70%] h-full md:h-[70%] flex justify-between items-center md:shadow-lg px-4 bg-slate-50 md:rounded-2xl text-black border-gray-700'>
         <div className='z-40'>
             <img src={Logo} alt="Logo pic" style={{width: '60px'}}/>
         </div>
@@ -43,7 +43,7 @@ const Nav = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={!bugger ? 'md:hidden absolute left-0 ease-in-out -top-[1000px] w-full h-screen duration-1000 bg-[#0a192f] flex flex-col justify-center items-center' : 'absolute top-0 left-0 w-full h-screen duration-1000 ease-in-out bg-[#0a192f] flex flex-col justify-center items-center opacity-90 z-30'}>
+        <div className={!bugger ? 'md:hidden absolute left-0 ease-in-out -top-[1000px] w-full h-screen duration-1000 bg-[#0a192f] flex flex-col justify-center items-center' : 'absolute top-0 left-0 w-full h-screen duration-1000 ease-in-out bg-[#0a192f] flex flex-col justify-center items-center opacity-90 z-30 text-white'}>
           <ul>
             <li className='py-6 text-4xl hover:scale-150 duration-300'>
               <Link onClick={handleClick} to="home" smooth={true} duration={700}>Home</Link>
